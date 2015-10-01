@@ -5,8 +5,8 @@ if [ ! -d "$src" ]; then
 fi
 cd src
 git clone https://github.com/ReturnInfinity/BMFS.git
-git clone https://github.com/ReturnInfinity/Pure64.git
-git clone https://github.com/ReturnInfinity/BareMetal-OS.git
+git clone git@github.com:nohajc/Pure64.git
+git clone git@github.com:nohajc/BareMetal-OS.git
 cd ..
 
 if [ ! -d "$bin" ]; then
